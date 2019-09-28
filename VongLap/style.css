@@ -72,3 +72,39 @@
     margin-top: 20px;
     margin-left: 250px;
 }
+
+
+/**************************** CONTENT3****************************/
+
+.content3 {
+    margin: 20px auto;
+    width: 225px;
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+.content3 h1 {
+    color: red;
+    text-align: center;
+}
+
+.content3 div.image {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.content3 div.image img {
+    margin: 10px 0px;
+}
+
+.content3 div.image a {
+    display: inline-block;
+    background-color: #686f97;
+    padding: 3px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.content3 div.image a:hover {
+    color: #f6f312;
+}
