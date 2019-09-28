@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/**************************** CONTENT ****************************/
+
+.content {
+    margin: 20px auto;
+    width: 280px;
+    border: 1px solid #999;
+    padding: 10px;
+    background: url("Images/trangvo.jpg") no-repeat;
+    min-height: 200px;
+}
+
+.content h1 {
+    color: red;
+    text-align: center;
+}
+
+.content ul {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.content ul li {
+    margin-top: 5px;
+    padding-top: 10px;
+    list-style: decimal inside;
+}
+
+
+/**************************** CONTENT2 ****************************/
+
+.content2 {
+    margin: 20px auto;
+    width: 600px;
+    border: 1px solid #999;
+    padding: 10px;
+    min-height: 200px;
+}
+
+.content2 h1 {
+    color: red;
+    text-align: center;
+}
+
+.content2 ul {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.content2 ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.content2 ul li a {
+    display: block;
+    width: 120px;
+    height: 120px;
+}
+
+.content2 ul li img {
+    border: 1px solid black;
+}
+
+.content2 div.result {
+    margin-top: 20px;
+    margin-left: 250px;
+}
