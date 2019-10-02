@@ -11,19 +11,18 @@
     <div class="content">
         <!--Tạo bằng php-->
         <?php
-            //Hàm kiểm tra số chẵn lẻ (có kết quả trả về- return)
-            function checkNumber($value){
-                echo $value.'<br>';
-                if($value % 2 == 0){
-                    return true;
-                }else{
-                    return false;
-                }
+            //Ham tạo ra box
+            function creatBox($content, $width, $height){
+                $result =  '<div style="width:'.$width.'px; height:'.$height.'px;">
+                                <p>'.$content.'<span>('.$width.'x'.$height.')</span></p>
+                            </div>';
+                return $result;
             }
             //Gọi hàm
-            $result = checkNumber(22);
-            $kq = ($result) ? 'Số chẵn' : 'Số lẻ'; 
-            echo $kq;
+            $boxA = creatBox("Box A", 200, 50);
+            $boxB = creatBox("Box B", 300, 100);
+            echo $boxA.$boxB;
+            
         ?>
     </div>
     
