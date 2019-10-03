@@ -7,7 +7,7 @@
     <link type="text/css" rel="stylesheet" href="Css/style.css">
     <title>Ví dụ về xây dựng hàm</title>
 </head>
-<body>
+<body>  
     <div class="content">
         <!--Tạo bằng php-->
         <?php
@@ -15,15 +15,15 @@
             $value = 'ABC'; //biến global
             function creatBox($content, $width, $height){
                 $result =  '<div style="width:'.$width.'px; height:'.$height.'px;">
-                                <p>'.$content.'<span>('.$width.'x'.$height.')</span></p>
+                                <p>'.$content.'<span>('.$width.'x'.$height.')</span></p>                                
                             </div>';
                 //cách truy cập $value ở trong nội nội bộ hàm
                 //cách 1:
                 // global $value;
-                // echo $value;
+                //echo $value;
 
                 //cách 2
-                echo $GLOBALS['value'];
+                // echo $GLOBALS['value'];
                 return $result;
             }
             //echo $value;
